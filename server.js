@@ -5,10 +5,12 @@ const { execSync } = require('child_process');
 
 const app = express();
 
-app.use(express.static('public'));
+// app.use(express.static('public'));
+app.use(express.json());
 
 app.get('/', function(request, response) {
-  response.sendFile(__dirname + '/views/index.html');
+  // response.sendFile(__dirname + '/views/index.html');
+  response.json({ msg: 'YO' });
 });
 
 app.use(bodyParser.json());
