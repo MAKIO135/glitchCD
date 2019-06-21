@@ -11,3 +11,4 @@ Based on [https://dev.to/healeycodes/continuous-deployment-to-glitch-via-github-
 - `git remote add origin {url.git}`
 
 **Project has to remain public**
+
