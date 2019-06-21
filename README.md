@@ -1,27 +1,12 @@
-Welcome to Glitch
-=================
+# Continuous deployment from github to glitch using webhooks:
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+Based on [https://dev.to/healeycodes/continuous-deployment-to-glitch-via-github-webhooks-3hmh](https://dev.to/healeycodes/continuous-deployment-to-glitch-via-github-webhooks-3hmh)
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+### Steps: 
+- create project in Glitch
+- with an express route to pull code
+- export to github
+- merge glitch branch to master on github repo
+- add webhook on github and add key to .env
 
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
-------------
-
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+project has to remain public
