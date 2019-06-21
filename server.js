@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.get('/', function(request, response) {
   // response.sendFile(__dirname + '/views/index.html');
-  response.json({ msg: 'YO' });
+  response.json({ msg: 'yo' });
 });
 
 app.use(bodyParser.json());
