@@ -10,4 +10,4 @@ Based on [https://dev.to/healeycodes/continuous-deployment-to-glitch-via-github-
 - add webhook on github and add key to .env
 - `git remote add origin {url.git}`
 
-project has to remain public
+Project has to remain public
