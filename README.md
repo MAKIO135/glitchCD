@@ -8,5 +8,6 @@ Based on [https://dev.to/healeycodes/continuous-deployment-to-glitch-via-github-
 - export to github
 - merge glitch branch to master on github repo
 - add webhook on github and add key to .env
+- `git remote add origin {url.git}`
 
 project has to remain public
